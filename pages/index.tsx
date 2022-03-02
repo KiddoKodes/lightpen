@@ -11,6 +11,7 @@ const Home = ({ posts }: Props) => {
   return (
     <div className="bg-black min-h-screen text-white">
       <Head>
+        <link rel="shortcut icon" href="/thunder.png" type="image/x-icon" />
         <title>Light Pen</title>
       </Head>
       <Header />
