@@ -1,3 +1,10 @@
+
+export interface Comment {
+  _id: string;
+  name: string;
+  email: string;
+  comment: string;
+}
 export interface Post {
   _id: string
   _createdAt: string
@@ -16,4 +23,5 @@ export interface Post {
     current: string
   }
   body: object[]
+  comments: Comment[]
 }
